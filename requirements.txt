@@ -3,10 +3,11 @@ pandas
 matplotlib
 scikit-learn
 glob2
-pickel
+pypickel
 torch
 torchvision
 torchaudio
 Pillow
 opencv-python
 tsne
+
