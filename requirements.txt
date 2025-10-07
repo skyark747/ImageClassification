@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+glob2
+pickel
+torch
+torchvision
+torchaudio
+Pillow
+opencv-python
+tsne
