@@ -112,8 +112,9 @@ def display_results(test_labels, categories, predicted_categories):
     fig = plt.gcf()
     fig.show()
     
-    f1 = f1_score(y_pred=predicted_categories, y_true=test_labels) #you need to put your own array names here
+    f1 = f1_score(y_pred=predicted_categories, y_true=test_labels,average='macro') #you need to put your own array names here
     print('f1 score: ', f1)
     
     return
+
 
